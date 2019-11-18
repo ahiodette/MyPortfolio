@@ -7,7 +7,7 @@ This site is created with purpose of showing Odette's Experience. It contains in
 * Make sure that you have an updated web browser
 * Check the internet connectivity for your device
 ## URL for the live site is:
-https://ahiodette.github.io/portfolio/
+https://ahiodette.github.io/MyPortfolio/
 
 ## Technologies Used
 This site is built using html5 and CSS
