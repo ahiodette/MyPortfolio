@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+em{
+    color: darkblue;
+    font-size: 28;
+}
+
+#home{
+    background-image: url('images/homehome.gif');
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+   
+    padding-bottom: 40px;
+    height: 1000px;
+}
+
+#list-example{
+    width: 400px;
+    height: 1000px;
+    float: left;
+    position: fixed;
+    padding-top: 0;
+    padding-bottom: 0;
+    background:transparent;
+}
+
+#list-example>a{
+    height: 200px;
+   text-align: center;
+   color: #2F74D0;
+   font-family: 'Philosopher', sans-serif;
+   font-size: 25px;
+    border: solid 1px aliceblue;
+    background-color: rgb(193, 227, 250)
+}
+
+#list-example>a:hover:after {
+    width:100%;
+    right: 0;
+  }
+  #list-example>a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    right: 0;
+    position: absolute;
+    background: #2F74D0;
+    transition: width 1s ease 0s, right 0.5s ease 0s;
+    width: 0;
+  }
+
+.container{
+   
+    padding-right: 0px;
+    padding-left: 50px; 
+}
+
+#about{
+    background-image: url('images/backgrounds.jpg');
+    background-size: cover;
+    text-align: justify;
+    padding-left: 6%;
+    padding-right: 1%;
+    height: 900px;
+    padding-top: 40px;
+    /* margin-top: 8%; */
+}
+.aboutphoto{
+    float: right;
+    padding-right: 8%;
+}
+#aboutphoto{
+    border-radius: 50%;
+}
+#skillssection{
+    background-image: url('images/backgrounds.jpg');
+    background-size: cover;
+    height: 900px;
+    padding-left: 20%;
+    margin-top: 20px;
+    
+    
+}
+
+#java,#firebase,#html,#javascript,#css,#jquery,#android,#postgress,#angular{
+    text-align: justify;
+    margin: 20px;
+}
+#projects{
+    text-align: center;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    padding-left: 6%;
+    background-image: url('images/backgrounds.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#project-intro:hover{
+    font-size: 25px;
+    color: blue;
+}
+#projects>div{
+    display: inline-block;
+    text-align: center;
+}
+.quotes{
+    float: left;
+}
+#git,#quotes{
+    width: 300px;
+    height: 220px;
+}
+div{
+    border-radius: 1%;
+}
+#contacts{
+    margin-left: 8%;
+}
+.contacts{
+    background-image: url('images/contact1.jpeg');
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    color: black;
+    height: 250px;
+    padding-bottom: 0;
+    margin-top: 20px;
+}
+.contacts h1,.contacts h2{
+    text-align: center;
+}
+.contacts>a{
+    text-decoration: none;
+    color: black;
+}
+.contacts>a:hover{
+    color: blue;
+    background-color: white;
+}
+.social {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: left;
+    padding-right:300px;
+    padding-left: 300px;
+}  
+.social li {
+    
+    list-style-type:none;
+}
+.social li a {
+    text-decoration: none;
+}
+.footer{
+    background-color: rgb(17, 16, 16);
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+    padding-top: 0;
+}
