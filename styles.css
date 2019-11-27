@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 body{
-    position: relative;
+    /* position: relative; */
     font-family: 'Open Sans', sans-serif;
 }
 em{
@@ -13,38 +13,39 @@ em{
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
+    margin-top: 0;
     padding-bottom: 40px;
     height: 1000px;
 }
-.home{
+/* .home{
     margin-left: 18%;
-}
+} */
 
-#list-example{
-    width: 330px;
-    height: 935px;
-    float: left;
+#nav{
     position: fixed;
-    padding-top: 0;
-    padding-bottom: 0;
-    background:transparent;
+    top: 0;
+    width: 100%;
+    background-image: url('images/homehome.gif');
 }
-
-#list-example>a{
-    height: 200px;
-   text-align: center;
+li>a{
+    
    color: #2F74D0;
    font-family: 'Philosopher', sans-serif;
    font-size: 25px;
+   font-weight: bold;
     border: solid 1px aliceblue;
     background-color: rgb(193, 227, 250)
 }
 
-#list-example>a:hover:after {
+li a:hover{
+    background-color: aliceblue;
+}
+
+li>a:hover:after {
     width:100%;
     right: 0;
   }
-  #list-example>a:after {
+  li>a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -85,10 +86,15 @@ em{
     background-image: url('images/backgrounds.jpg');
     background-size: cover;
     height: 50%;
-    padding-left: 20%;
+    padding-left: 0%;
     margin-top: 20px;
+    padding-bottom: 10%;
     
     
+}
+
+.skills{
+    margin-left: 25%;
 }
 
 #java,#firebase,#html,#javascript,#css,#jquery,#android,#postgress,#angular{
@@ -121,6 +127,57 @@ em{
     width: 300px;
     height: 220px;
 }
+
+
+.git a img{
+        -webkit-filter: sepia(100%);
+        filter: sepia(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+    .git a:hover img {
+        -webkit-filter: sepia(0);
+        filter: sepia(0);
+    
+}
+
+.quotes a img{
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.quotes a:hover img {
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+
+}
+
+.dating a img{
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.dating a:hover img {
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+
+}
+
+.api a img{
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.api a:hover img {
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+
+}
+
+
 div{
     border-radius: 1%;
 }
