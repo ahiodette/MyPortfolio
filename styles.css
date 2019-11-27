@@ -13,14 +13,16 @@ em{
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-   
     padding-bottom: 40px;
     height: 1000px;
 }
+.home{
+    margin-left: 18%;
+}
 
 #list-example{
-    width: 400px;
-    height: 1000px;
+    width: 350px;
+    height: 945px;
     float: left;
     position: fixed;
     padding-top: 0;
@@ -65,7 +67,8 @@ em{
     background-image: url('images/backgrounds.jpg');
     background-size: cover;
     text-align: justify;
-    padding-left: 6%;
+    padding-left: 2%;
+    margin-left: 4%;
     padding-right: 1%;
     height: 900px;
     padding-top: 40px;
@@ -158,10 +161,85 @@ div{
 .social li a {
     text-decoration: none;
 }
-.footer{
+#footer{
     background-color: rgb(17, 16, 16);
     color: aliceblue;
     text-align: center;
     height: 50px;
     padding-top: 0;
 }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    #list-example{
+        width: 200px;
+        height: 630px;
+        float: left;
+        position: fixed;
+        padding-top: 0;
+        padding-bottom: 0;
+        background:transparent;
+    }
+    #list-example>a:hover:after {
+        width:70%;
+        right: 0;
+      }
+      #list-example>a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        right: 0;
+        position: absolute;
+        background: #2F74D0;
+        transition: width 1s ease 0s, right 0.5s ease 0s;
+        width: 0;
+      }
+    .content{
+        float: right;
+    }
+    .footer{
+        position: relative;
+        color: black;
+        height: 3%;
+
+    } 
+    
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    #list-example{
+        width: 150px;
+        height: 570px;
+        float: left;
+        position: fixed;
+        padding-top: 0;
+        padding-bottom: 0;
+        background:transparent;
+    }
+    #list-example>a:hover:after {
+        width:50%;
+        right: 0;
+      }
+      #list-example>a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        right: 0;
+        position: absolute;
+        background: #2F74D0;
+        transition: width 1s ease 0s, right 0.5s ease 0s;
+        width: 0;
+      }
+    .content{
+        float: right;
+    }
+     .footer{
+        position: relative;
+        height: 3%;
+        color: black;
+    } 
+    
+  } 
